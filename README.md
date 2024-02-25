@@ -36,16 +36,7 @@ The primary objective of this project is to leverage computer vision techniques 
 - **Model Interpretability**: Ensuring the interpretability of the model's decisions is crucial for clinical acceptance.
 - **Regulatory Compliance**: Adhering to regulatory standards and ensuring the model meets healthcare industry requirements.
 
-## Future Enhancements
-
-- Incorporate additional modalities such as patient history or blood test results for improved diagnosis accuracy.
-- Develop a user-friendly interface for healthcare professionals to interact with the system.
-- Extend the system to perform real-time analysis of live sonography images during medical examinations.
-
-## Conclusion
-
-By leveraging Python and associated libraries such as Keras, Pandas, shutil, and scikit-learn, this project aims to contribute to the early detection and diagnosis of PCOS, ultimately improving healthcare outcomes for affected individuals. If you're interested in collaborating or learning more about this project, feel free to reach out!
-
+## To run model
 
 ```python
 import os
@@ -115,4 +106,14 @@ predictions_df.to_excel(excel_output_path, index=False)
 
 print("Prediction and organization completed.")
 ```
+
+## Future Enhancements
+
+- Incorporate additional modalities such as patient history or blood test results for improved diagnosis accuracy.
+- Develop a user-friendly interface for healthcare professionals to interact with the system.
+- Extend the system to perform real-time analysis of live sonography images during medical examinations.
+
+## Conclusion
+
+By leveraging Python and associated libraries such as Keras, Pandas, shutil, and scikit-learn, this project aims to contribute to the early detection and diagnosis of PCOS, ultimately improving healthcare outcomes for affected individuals. If you're interested in collaborating or learning more about this project, feel free to reach out!
 
