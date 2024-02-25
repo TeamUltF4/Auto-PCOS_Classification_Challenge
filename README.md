@@ -112,8 +112,6 @@ print("Prediction and organization completed.")
 ## To check the model scores
 
 
-## Description
-
 ```python
 import pandas as pd
 from sklearn.metrics import average_precision_score, accuracy_score, f1_score
