@@ -109,6 +109,41 @@ predictions_df.to_excel(excel_output_path, index=False)
 
 print("Prediction and organization completed.")
 ```
+## To check the model scores
+
+
+## Description
+
+```python
+import pandas as pd
+from sklearn.metrics import average_precision_score, accuracy_score, f1_score
+
+# Load the predictions file
+predictions_df = pd.read_excel('/path/to/your/predictions/file.xlsx')
+
+# Extract ground truth labels and predicted probabilities
+y_true = predictions_df['Status'].apply(lambda x: 1 if x == 'Unhealthy' else 0).values
+y_pred_probabilities = predictions_df['Prediction'].values
+
+# Set the intervals or thresholds you want to evaluate
+thresholds = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+
+# Calculate mAP, accuracy, and F1 score for each threshold
+for threshold in thresholds:
+ # Convert predicted probabilities to binary predictions based on the threshold
+ y_pred_binary = (y_pred_probabilities >= threshold).astype(int)
+
+ # Calculate mAP
+ map_score = average_precision_score(y_true, y_pred_binary)
+
+ # Calculate accuracy
+ accuracy = accuracy_score(y_true, y_pred_binary)
+
+ # Calculate F1 score
+ f1 = f1_score(y_true, y_pred_binary)
+
+ print(f'Threshold: {threshold}, Mean Average Precision (mAP): {map_score}, Accuracy: {accuracy}, F1 Score: {f1})
+```
 
 ## Future Enhancements
 
