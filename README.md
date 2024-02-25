@@ -38,8 +38,8 @@ The primary objective of this project is to leverage computer vision techniques 
 
 ## To run model
 
--**Download the model file from the repository**
--**Change the directories as required in the below code**
+-**Download the model file from the repository**.
+-**Change the directories as required in the below code**.
 
 ```python
 import os
