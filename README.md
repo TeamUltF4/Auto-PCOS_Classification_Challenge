@@ -47,7 +47,7 @@ The primary objective of this project is to leverage computer vision techniques 
 By leveraging Python and associated libraries such as Keras, Pandas, shutil, and scikit-learn, this project aims to contribute to the early detection and diagnosis of PCOS, ultimately improving healthcare outcomes for affected individuals. If you're interested in collaborating or learning more about this project, feel free to reach out!
 
 
-## Code to test the model
+```python
 import os
 import zipfile
 import pandas as pd
@@ -56,19 +56,35 @@ from tensorflow.keras.preprocessing import image
 import numpy as np
 import shutil
 
+# Path to the ZIP file containing images
 zip_path = '/content/drive/MyDrive/images/PCOSGen-test.zip'
+
+# Path to extract the ZIP contents
 extract_path = '/content/test_dataset'
+
+# Extracting the contents of the ZIP file
 with zipfile.ZipFile(zip_path, 'r') as zip_ref:
     zip_ref.extractall(extract_path)
+
+# Path to the pre-trained model
 model_path = '/content/drive/MyDrive/healthy_model1.h5'
+
+# Loading the pre-trained model
 model = load_model(model_path)
+
+# Output folders for healthy and unhealthy images
 output_path = '/content/drive/MyDrive'
 healthy_folder = os.path.join(output_path, 'healthy')
 unhealthy_folder = os.path.join(output_path, 'unhealthy')
 
+# Creating output folders if they don't exist
 os.makedirs(healthy_folder, exist_ok=True)
 os.makedirs(unhealthy_folder, exist_ok=True)
+
+# DataFrame to store predictions
 predictions_df = pd.DataFrame(columns=['Image', 'Prediction', 'Status'])
+
+# Iterating through images in the 'images' subdirectory
 for subdir, dirs, files in os.walk(os.path.join(extract_path, 'images')):
     for image_file in files:
         image_path = os.path.join(subdir, image_file)
@@ -85,7 +101,7 @@ for subdir, dirs, files in os.walk(os.path.join(extract_path, 'images')):
         # Determine status based on predictions
         status = 'Healthy' if predictions[0] < 0.5 else 'Unhealthy'
 
-        # Save the prediction and status to the Excel sheet
+        # Save the prediction and status to the DataFrame
         predictions_df = predictions_df.append({'Image': image_file, 'Prediction': predictions[0][0], 'Status': status}, ignore_index=True)
 
         # Organize images based on predictions
@@ -93,8 +109,10 @@ for subdir, dirs, files in os.walk(os.path.join(extract_path, 'images')):
         output_file_path = os.path.join(output_folder, image_file)
         shutil.move(image_path, output_file_path)
 
-# Save the Excel sheet to Google Drive
+# Save predictions to an Excel sheet
 excel_output_path = '/content/drive/MyDrive/predictions_with_status2.xlsx'
 predictions_df.to_excel(excel_output_path, index=False)
 
 print("Prediction and organization completed.")
+```
+
