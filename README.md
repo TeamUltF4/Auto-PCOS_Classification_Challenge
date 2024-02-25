@@ -46,6 +46,8 @@ The primary objective of this project is to leverage computer vision techniques 
 
 By leveraging Python and associated libraries such as Keras, Pandas, shutil, and scikit-learn, this project aims to contribute to the early detection and diagnosis of PCOS, ultimately improving healthcare outcomes for affected individuals. If you're interested in collaborating or learning more about this project, feel free to reach out!
 
+
+## Code to test the model
 import os
 import zipfile
 import pandas as pd
@@ -54,29 +56,19 @@ from tensorflow.keras.preprocessing import image
 import numpy as np
 import shutil
 
-# Extract the contents of the ZIP file
 zip_path = '/content/drive/MyDrive/images/PCOSGen-test.zip'
 extract_path = '/content/test_dataset'
-
 with zipfile.ZipFile(zip_path, 'r') as zip_ref:
     zip_ref.extractall(extract_path)
-
-# Load the trained model
 model_path = '/content/drive/MyDrive/healthy_model1.h5'
 model = load_model(model_path)
-
-# Create folders for healthy and unhealthy images
 output_path = '/content/drive/MyDrive'
 healthy_folder = os.path.join(output_path, 'healthy')
 unhealthy_folder = os.path.join(output_path, 'unhealthy')
 
 os.makedirs(healthy_folder, exist_ok=True)
 os.makedirs(unhealthy_folder, exist_ok=True)
-
-# Create an Excel sheet to store predictions
 predictions_df = pd.DataFrame(columns=['Image', 'Prediction', 'Status'])
-
-# Iterate through the images in the 'images' subdirectory
 for subdir, dirs, files in os.walk(os.path.join(extract_path, 'images')):
     for image_file in files:
         image_path = os.path.join(subdir, image_file)
