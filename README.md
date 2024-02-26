@@ -70,7 +70,7 @@ Below are pictures of the best frames selected from the testing dataset showing 
 
 Below are interpretability plots of the best frames selected from the testing dataset:
 
-1. Interpretability Plot 1 ![Interpretability Plot 1](testing_interpretability_plot1.jpg)
+1. Interpretability Plot 1 ![Interpretability Plot 1]((https://drive.google.com/file/d/1lr2RddaY5cSrdlGgzRr4Hi7KzO-DxvDD/view?usp=drive_link))
 2. Interpretability Plot 2 ![Interpretability Plot 2](testing_interpretability_plot2.jpg)
 3. Interpretability Plot 3 ![Interpretability Plot 3](testing_interpretability_plot3.jpg)
 4. Interpretability Plot 4 ![Interpretability Plot 4](testing_interpretability_plot4.jpg)
