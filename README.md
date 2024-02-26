@@ -66,6 +66,8 @@ Below are pictures of the best frames selected from the validating dataset showi
 
 ### Threshold Evaluation Metrics
 
+The model predicts healthy and unhealthy images where 1 is for unhealthy and 0 is for healthy.
+So the 0.1 is healthy where 0.9 is Unhealthy
 Here are the evaluation metrics for different thresholds on the testing dataset:
 
 | Threshold | Mean Average Precision (mAP) | Accuracy | F1 Score |
