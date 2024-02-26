@@ -39,6 +39,22 @@ Below are interpretability plots of the best frames selected from the validation
 5. Interpretability Plot 5 ![Interpretability Plot 5](validation_interpretability_plot5.jpg)
 
 ## Achieved Results on Testing Dataset
+## Threshold Evaluation Metrics
+
+Here are the evaluation metrics for different thresholds on the testing dataset:
+
+| Threshold | Mean Average Precision (mAP) | Accuracy | F1 Score |
+|-----------|------------------------------|----------|----------|
+| 0.1       | 0.9749                       | 0.9789   | 0.9873   |
+| 0.2       | 0.9828                       | 0.9857   | 0.9913   |
+| 0.3       | 0.9869                       | 0.9891   | 0.9934   |
+| 0.4       | 0.9893                       | 0.9911   | 0.9946   |
+| 0.5       | 1.0000                       | 1.0000   | 1.0000   |
+| 0.6       | 0.9941                       | 0.9734   | 0.9835   |
+| 0.7       | 0.9704                       | 0.8658   | 0.9108   |
+| 0.8       | 0.9599                       | 0.8181   | 0.8752   |
+| 0.9       | 0.9518                       | 0.7813   | 0.8460   |
+
 
 ### Best Frames Classification
 
