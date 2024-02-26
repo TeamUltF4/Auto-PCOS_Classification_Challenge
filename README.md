@@ -55,11 +55,18 @@ Here are the evaluation metrics for different thresholds on the testing dataset:
 
 ### Best Frames Classification
 
-Below are pictures of the best frames selected from the testing dataset showing their classification(mix dataset with max predictions for eg:healthy-0.1 and unhealthy-0.99:
-| Frame 1 | Frame 2 | Frame 3 | Frame 4 | Frame 5 |
-|---------|---------|---------|---------|---------|
+
+Below are pictures of the best frames selected from the testing dataset showing their classification:
+
+| Frame 1 (Healthy) | Frame 2 (Unhealthy) | Frame 3 (Unhealthy) | Frame 4 (Unhealthy) | Frame 5 (Healthy) |
+|-------------------|----------------------|----------------------|----------------------|-------------------|
 | [![Frame 1](https://drive.google.com/uc?id=1lr2RddaY5cSrdlGgzRr4Hi7KzO-DxvDD)](https://drive.google.com/file/d/1lr2RddaY5cSrdlGgzRr4Hi7KzO-DxvDD/view?usp=sharing) | [![Frame 2](https://drive.google.com/uc?id=1smCJjNWxy5t0ScDrnMnW2AtGJU5qAfTX)](https://drive.google.com/file/d/1smCJjNWxy5t0ScDrnMnW2AtGJU5qAfTX/view?usp=sharing) | [![Frame 3](https://drive.google.com/uc?id=1vwlhrIAdEQvJrc_MkhaQFU2_Y4vwtCoG)](https://drive.google.com/file/d/1vwlhrIAdEQvJrc_MkhaQFU2_Y4vwtCoG/view?usp=sharing) | [![Frame 4](https://drive.google.com/uc?id=1SFVGJkcaUMIMDqUIEv82VVgmfaNrglFZ)](https://drive.google.com/file/d/1SFVGJkcaUMIMDqUIEv82VVgmfaNrglFZ/view?usp=sharing) | [![Frame 5](https://drive.google.com/uc?id=1fwpkYrg8ktXPEFvj5X7k01qLpw8S_2Cg)](https://drive.google.com/file/d/1fwpkYrg8ktXPEFvj5X7k01qLpw8S_2Cg/view?usp=sharing) |
-| Interpretability Plot | Interpretability Plot | Interpretability Plot | Interpretability Plot | Interpretability Plot |
+
+### Interpretability Plots
+
+| Interpretability Plot 1 | Interpretability Plot 2 | Interpretability Plot 3 | Interpretability Plot 4 | Interpretability Plot 5 |
+|--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|
 | [![Interpretability Plot 1](https://drive.google.com/uc?id=1PjP4tNw5ZpE6F9dGWBFFtgym9u3as4AM)](https://drive.google.com/file/d/1PjP4tNw5ZpE6F9dGWBFFtgym9u3as4AM/view?usp=sharing) | [![Interpretability Plot 2](https://drive.google.com/uc?id=1uywJFI47j-YczLhyVIfL458P897VCwur)](https://drive.google.com/file/d/1uywJFI47j-YczLhyVIfL458P897VCwur/view?usp=sharing) | [![Interpretability Plot 3](https://drive.google.com/uc?id=16E0isK0LuaYehRTkfpzZ_OeHxIi-6Jz6)](https://drive.google.com/file/d/16E0isK0LuaYehRTkfpzZ_OeHxIi-6Jz6/view?usp=sharing) | [![Interpretability Plot 4](https://drive.google.com/uc?id=1X6-f5E0PJM5wLv3xSFCUQEp0q1Gr0nDH)](https://drive.google.com/file/d/1X6-f5E0PJM5wLv3xSFCUQEp0q1Gr0nDH/view?usp=sharing) | [![Interpretability Plot 5](https://drive.google.com/uc?id=1rqhNziazXCUrCS3lu0OS5NrLjzRnGbcx)](https://drive.google.com/file/d/1rqhNziazXCUrCS3lu0OS5NrLjzRnGbcx/view?usp=sharing) |
+
 
 
