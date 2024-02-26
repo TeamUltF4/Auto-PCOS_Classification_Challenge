@@ -59,18 +59,19 @@ Here are the evaluation metrics for different thresholds on the testing dataset:
 
 Below are pictures of the best frames selected from the testing dataset showing their classification:
 
-1. Frame 1 ![Frame 1](testing_frame1.jpg)
-   - Interpretability Plot ![Interpretability Plot 1](testing_interpretability_plot1.jpg)
-   
-2. Frame 2 ![Frame 2](testing_frame2.jpg)
-   - Interpretability Plot ![Interpretability Plot 2](testing_interpretability_plot2.jpg)
-   
-3. Frame 3 ![Frame 3](testing_frame3.jpg)
-   - Interpretability Plot ![Interpretability Plot 3](testing_interpretability_plot3.jpg)
-   
-4. Frame 4 ![Frame 4](testing_frame4.jpg)
-   - Interpretability Plot ![Interpretability Plot 4](testing_interpretability_plot4.jpg)
-   
-5. Frame 5 ![Frame 5](testing_frame5.jpg)
-   - Interpretability Plot ![Interpretability Plot 5](testing_interpretability_plot5.jpg)
+1. Frame 1 [![Frame 1](https://drive.google.com/uc?id=1lr2RddaY5cSrdlGgzRr4Hi7KzO-DxvDD)](https://drive.google.com/file/d/1lr2RddaY5cSrdlGgzRr4Hi7KzO-DxvDD/view?usp=sharing)
+   - Interpretability Plot [![Interpretability Plot 1](https://drive.google.com/uc?id=1PjP4tNw5ZpE6F9dGWBFFtgym9u3as4AM)](https://drive.google.com/file/d/1PjP4tNw5ZpE6F9dGWBFFtgym9u3as4AM/view?usp=sharing)
+
+2. Frame 2 [![Frame 2](https://drive.google.com/uc?id=1smCJjNWxy5t0ScDrnMnW2AtGJU5qAfTX)](https://drive.google.com/file/d/1smCJjNWxy5t0ScDrnMnW2AtGJU5qAfTX/view?usp=sharing)
+   - Interpretability Plot [![Interpretability Plot 2](https://drive.google.com/uc?id=1uywJFI47j-YczLhyVIfL458P897VCwur)](https://drive.google.com/file/d/1uywJFI47j-YczLhyVIfL458P897VCwur/view?usp=sharing)
+
+3. Frame 3 [![Frame 3](https://drive.google.com/uc?id=1vwlhrIAdEQvJrc_MkhaQFU2_Y4vwtCoG)](https://drive.google.com/file/d/1vwlhrIAdEQvJrc_MkhaQFU2_Y4vwtCoG/view?usp=sharing)
+   - Interpretability Plot [![Interpretability Plot 3](https://drive.google.com/uc?id=16E0isK0LuaYehRTkfpzZ_OeHxIi-6Jz6)](https://drive.google.com/file/d/16E0isK0LuaYehRTkfpzZ_OeHxIi-6Jz6/view?usp=sharing)
+
+4. Frame 4 [![Frame 4](https://drive.google.com/uc?id=1SFVGJkcaUMIMDqUIEv82VVgmfaNrglFZ)](https://drive.google.com/file/d/1SFVGJkcaUMIMDqUIEv82VVgmfaNrglFZ/view?usp=sharing)
+   - Interpretability Plot [![Interpretability Plot 4](https://drive.google.com/uc?id=1X6-f5E0PJM5wLv3xSFCUQEp0q1Gr0nDH)](https://drive.google.com/file/d/1X6-f5E0PJM5wLv3xSFCUQEp0q1Gr0nDH/view?usp=sharing)
+
+5. Frame 5 [![Frame 5](https://drive.google.com/uc?id=1fwpkYrg8ktXPEFvj5X7k01qLpw8S_2Cg)](https://drive.google.com/file/d/1fwpkYrg8ktXPEFvj5X7k01qLpw8S_2Cg/view?usp=sharing)
+   - Interpretability Plot [![Interpretability Plot 5](https://drive.google.com/uc?id=1rqhNziazXCUrCS3lu0OS5NrLjzRnGbcx)](https://drive.google.com/file/d/1rqhNziazXCUrCS3lu0OS5NrLjzRnGbcx/view?usp=sharing)
+
 
