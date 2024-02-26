@@ -22,6 +22,7 @@ Our pipeline involves the development of a Convolutional Neural Network (CNN) mo
 
 Below are pictures of the best frames selected from the validating dataset showing their classification (all healthy dataset):
 
+
 | Frame 1 | Frame 2 | Frame 3 | Frame 4 | Frame 5 |
 |---------|---------|---------|---------|---------|
 | [![Frame 1](https://drive.google.com/uc?id=10zqCqFGiJIzfVevZH5OnEEooplpUXZBR)](https://drive.google.com/file/d/10zqCqFGiJIzfVevZH5OnEEooplpUXZBR/view?usp=sharing) | [![Frame 2](https://drive.google.com/uc?id=17GOj0Mq3E3BmXoEwHaEMVWm_6vmbxC0t)](https://drive.google.com/file/d/17GOj0Mq3E3BmXoEwHaEMVWm_6vmbxC0t/view?usp=sharing) | [![Frame 3](https://drive.google.com/uc?id=14L_E-7iw4czYvJ98sm93uWa9M22JXhPS)](https://drive.google.com/file/d/14L_E-7iw4czYvJ98sm93uWa9M22JXhPS/view?usp=sharing) | [![Frame 4](https://drive.google.com/uc?id=17J0QcMSYEK9EaeuQWf5HCalkOmcSG4Tb)](https://drive.google.com/file/d/17J0QcMSYEK9EaeuQWf5HCalkOmcSG4Tb/view?usp=sharing) | [![Frame 5](https://drive.google.com/uc?id=1uZRgucjDWWD0mXnYMc_Zbmh9Nh5SiLM1)](https://drive.google.com/file/d/1uZRgucjDWWD0mXnYMc_Zbmh9Nh5SiLM1/view?usp=sharing) |
@@ -31,8 +32,6 @@ Below are pictures of the best frames selected from the validating dataset showi
 | Interpretability Plot 1 | Interpretability Plot 2 | Interpretability Plot 3 | Interpretability Plot 4 | Interpretability Plot 5 |
 |--------------------------|--------------------------|--------------------------|--------------------------|--------------------------|
 | [![Interpretability Plot 1](https://drive.google.com/uc?id=17GOj0Mq3E3BmXoEwHaEMVWm_6vmbxC0t)](https://drive.google.com/file/d/17GOj0Mq3E3BmXoEwHaEMVWm_6vmbxC0t/view?usp=sharing) | [![Interpretability Plot 2](https://drive.google.com/uc?id=14L_E-7iw4czYvJ98sm93uWa9M22JXhPS)](https://drive.google.com/file/d/14L_E-7iw4czYvJ98sm93uWa9M22JXhPS/view?usp=sharing) | [![Interpretability Plot 3](https://drive.google.com/uc?id=17J0QcMSYEK9EaeuQWf5HCalkOmcSG4Tb)](https://drive.google.com/file/d/17J0QcMSYEK9EaeuQWf5HCalkOmcSG4Tb/view?usp=sharing) | [![Interpretability Plot 4](https://drive.google.com/uc?id=1uZRgucjDWWD0mXnYMc_Zbmh9Nh5SiLM1)](https://drive.google.com/file/d/1uZRgucjDWWD0mXnYMc_Zbmh9Nh5SiLM1/view?usp=sharing) | [![Interpretability Plot 5](https://drive.google.com/uc?id=17Iol63j4LyfqkD2ifz5e00uCSKWQ70zo)](https://drive.google.com/file/d/17Iol63j4LyfqkD2ifz5e00uCSKWQ70zo/view?usp=sharing) |
-
-
 
 
 
