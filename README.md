@@ -32,14 +32,15 @@ Below are pictures of the best frames selected from the validation dataset showi
 
 Below are interpretability plots of the best frames selected from the validation dataset:
 
-1. Interpretability Plot 1 ![Interpretability Plot 1](validation_interpretability_plot1.jpg)
-2. Interpretability Plot 2 ![Interpretability Plot 2](validation_interpretability_plot2.jpg)
-3. Interpretability Plot 3 ![Interpretability Plot 3](validation_interpretability_plot3.jpg)
-4. Interpretability Plot 4 ![Interpretability Plot 4](validation_interpretability_plot4.jpg)
-5. Interpretability Plot 5 ![Interpretability Plot 5](validation_interpretability_plot5.jpg)
+1. Interpretability Plot 1 ![Interpretability Plot 1](https://drive.google.com/uc?export=view&id=1lr2RddaY5cSrdlGgzRr4Hi7KzO-DxvDD)
+2. Interpretability Plot 2 ![Interpretability Plot 2](https://drive.google.com/uc?export=view&id=1PjP4tNw5ZpE6F9dGWBFFtgym9u3as4AM)
+3. Interpretability Plot 3 ![Interpretability Plot 3](https://drive.google.com/uc?export=view&id=1smCJjNWxy5t0ScDrnMnW2AtGJU5qAfTX)
+4. Interpretability Plot 4 ![Interpretability Plot 4](https://drive.google.com/uc?export=view&id=1uywJFI47j-YczLhyVIfL458P897VCwur)
+5. Interpretability Plot 5 ![Interpretability Plot 5](https://drive.google.com/uc?export=view&id=1vwlhrIAdEQvJrc_MkhaQFU2_Y4vwtCoG)
 
 ## Achieved Results on Testing Dataset
-## Threshold Evaluation Metrics
+
+### Threshold Evaluation Metrics
 
 Here are the evaluation metrics for different thresholds on the testing dataset:
 
@@ -55,7 +56,6 @@ Here are the evaluation metrics for different thresholds on the testing dataset:
 | 0.8       | 0.9599                       | 0.8181   | 0.8752   |
 | 0.9       | 0.9518                       | 0.7813   | 0.8460   |
 
-
 ### Best Frames Classification
 
 Below are pictures of the best frames selected from the testing dataset showing their classification:
@@ -70,9 +70,9 @@ Below are pictures of the best frames selected from the testing dataset showing 
 
 Below are interpretability plots of the best frames selected from the testing dataset:
 
-1. Interpretability Plot 1 ![Interpretability Plot 1]((https://drive.google.com/file/d/1lr2RddaY5cSrdlGgzRr4Hi7KzO-DxvDD/view?usp=drive_link))
-2. Interpretability Plot 2 ![Interpretability Plot 2](testing_interpretability_plot2.jpg)
-3. Interpretability Plot 3 ![Interpretability Plot 3](testing_interpretability_plot3.jpg)
-4. Interpretability Plot 4 ![Interpretability Plot 4](testing_interpretability_plot4.jpg)
-5. Interpretability Plot 5 ![Interpretability Plot 5](testing_interpretability_plot5.jpg)
+1. Interpretability Plot 1 ![Interpretability Plot 1](https://drive.google.com/uc?export=view&id=1SFVGJkcaUMIMDqUIEv82VVgmfaNrglFZ)
+2. Interpretability Plot 2 ![Interpretability Plot 2](https://drive.google.com/uc?export=view&id=1X6-f5E0PJM5wLv3xSFCUQEp0q1Gr0nDH)
+3. Interpretability Plot 3 ![Interpretability Plot 3](https://drive.google.com/uc?export=view&id=1fwpkYrg8ktXPEFvj5X7k01qLpw8S_2Cg)
+4. Interpretability Plot 4 ![Interpretability Plot 4](https://drive.google.com/uc?export=view&id=16E0isK0LuaYehRTkfpzZ_OeHxIi-6Jz6)
+5. Interpretability Plot 5 ![Interpretability Plot 5](https://drive.google.com/uc?export=view&id=1rqhNziazXCUrCS3lu0OS5NrLjzRnGbcx)
 
