@@ -7,7 +7,11 @@ Our pipeline involves the development of a Convolutional Neural Network (CNN) mo
 3. Model Evaluation: Evaluating the trained model on validation and testing datasets to assess its classification performance.
 4. Interpretability Analysis: Analyzing interpretability plots to understand the model's decision-making process.
 
-## Model Architecture
+
+### Model Architecture
+
+![Model Architecture](https://drive.google.com/uc?id=1PYhI7_XwA2hcNlkQii_nfGUBBXTASs68)
+
 
 ```python
 # Section 7: Build Improved CNN Model
