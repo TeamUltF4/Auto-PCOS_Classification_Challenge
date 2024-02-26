@@ -23,20 +23,19 @@ Our pipeline involves the development of a Convolutional Neural Network (CNN) mo
 Below are pictures of the best frames selected from the validation dataset showing their classification:
 
 1. Frame 1 ![Frame 1](validation_frame1.jpg)
+   - Interpretability Plot ![Interpretability Plot 1](validation_interpretability_plot1.jpg)
+   
 2. Frame 2 ![Frame 2](validation_frame2.jpg)
+   - Interpretability Plot ![Interpretability Plot 2](validation_interpretability_plot2.jpg)
+   
 3. Frame 3 ![Frame 3](validation_frame3.jpg)
+   - Interpretability Plot ![Interpretability Plot 3](validation_interpretability_plot3.jpg)
+   
 4. Frame 4 ![Frame 4](validation_frame4.jpg)
+   - Interpretability Plot ![Interpretability Plot 4](validation_interpretability_plot4.jpg)
+   
 5. Frame 5 ![Frame 5](validation_frame5.jpg)
-
-### Interpretability Plots
-
-Below are interpretability plots of the best frames selected from the validation dataset:
-
-1. Interpretability Plot 1 ![Interpretability Plot 1](https://drive.google.com/uc?export=view&id=1lr2RddaY5cSrdlGgzRr4Hi7KzO-DxvDD)
-2. Interpretability Plot 2 ![Interpretability Plot 2](https://drive.google.com/uc?export=view&id=1PjP4tNw5ZpE6F9dGWBFFtgym9u3as4AM)
-3. Interpretability Plot 3 ![Interpretability Plot 3](https://drive.google.com/uc?export=view&id=1smCJjNWxy5t0ScDrnMnW2AtGJU5qAfTX)
-4. Interpretability Plot 4 ![Interpretability Plot 4](https://drive.google.com/uc?export=view&id=1uywJFI47j-YczLhyVIfL458P897VCwur)
-5. Interpretability Plot 5 ![Interpretability Plot 5](https://drive.google.com/uc?export=view&id=1vwlhrIAdEQvJrc_MkhaQFU2_Y4vwtCoG)
+   - Interpretability Plot ![Interpretability Plot 5](validation_interpretability_plot5.jpg)
 
 ## Achieved Results on Testing Dataset
 
@@ -61,18 +60,17 @@ Here are the evaluation metrics for different thresholds on the testing dataset:
 Below are pictures of the best frames selected from the testing dataset showing their classification:
 
 1. Frame 1 ![Frame 1](testing_frame1.jpg)
+   - Interpretability Plot ![Interpretability Plot 1](testing_interpretability_plot1.jpg)
+   
 2. Frame 2 ![Frame 2](testing_frame2.jpg)
+   - Interpretability Plot ![Interpretability Plot 2](testing_interpretability_plot2.jpg)
+   
 3. Frame 3 ![Frame 3](testing_frame3.jpg)
+   - Interpretability Plot ![Interpretability Plot 3](testing_interpretability_plot3.jpg)
+   
 4. Frame 4 ![Frame 4](testing_frame4.jpg)
+   - Interpretability Plot ![Interpretability Plot 4](testing_interpretability_plot4.jpg)
+   
 5. Frame 5 ![Frame 5](testing_frame5.jpg)
-
-### Interpretability Plots
-
-Below are interpretability plots of the best frames selected from the testing dataset:
-
-1. Interpretability Plot 1 ![Interpretability Plot 1](https://drive.google.com/uc?export=view&id=1SFVGJkcaUMIMDqUIEv82VVgmfaNrglFZ)
-2. Interpretability Plot 2 ![Interpretability Plot 2](https://drive.google.com/uc?export=view&id=1X6-f5E0PJM5wLv3xSFCUQEp0q1Gr0nDH)
-3. Interpretability Plot 3 ![Interpretability Plot 3](https://drive.google.com/uc?export=view&id=1fwpkYrg8ktXPEFvj5X7k01qLpw8S_2Cg)
-4. Interpretability Plot 4 ![Interpretability Plot 4](https://drive.google.com/uc?export=view&id=16E0isK0LuaYehRTkfpzZ_OeHxIi-6Jz6)
-5. Interpretability Plot 5 ![Interpretability Plot 5](https://drive.google.com/uc?export=view&id=1rqhNziazXCUrCS3lu0OS5NrLjzRnGbcx)
+   - Interpretability Plot ![Interpretability Plot 5](testing_interpretability_plot5.jpg)
 
