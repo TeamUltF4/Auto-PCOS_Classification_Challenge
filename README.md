@@ -1,4 +1,29 @@
-# Pipeline Overview
+<div align="center">
+  <p>
+    <h1>
+      Auto-PCOS Classification Challenge
+    </h1>
+  </p>
+</div>
+
+### team name :
+Team UltF4
+
+### Team member names and affiliation :
+
+|   Members   |     Member names    | Affiliation |
+|-------------|---------------------|-------------|
+| Member 1    | Rahul Gadekar       |  Team Lead  |
+| Member 2    | Abhishek Shelar     |  Co-lead    |
+| Member 3    | Rhythm Gondaliya    |  Member     |
+
+#### Contact number :
+
+1. +91 8754576365
+2. +91 9766997632
+
+
+## Pipeline Overview
 
 Our pipeline involves the development of a Convolutional Neural Network (CNN) model for automatic classification of healthy and unhealthy frames in ultrasound imaging. The pipeline consists of the following stages:
 
