@@ -7,6 +7,28 @@ Our pipeline involves the development of a Convolutional Neural Network (CNN) mo
 3. Model Evaluation: Evaluating the trained model on validation and testing datasets to assess its classification performance.
 4. Interpretability Analysis: Analyzing interpretability plots to understand the model's decision-making process.
 
+## Model Architecture
+
+```python
+# Section 7: Build Improved CNN Model
+model = Sequential()
+model.add(Conv2D(32, (3, 3), activation='relu', input_shape=(img_size[0], img_size[1], 3)))
+model.add(BatchNormalization())
+model.add(MaxPooling2D((2, 2)))
+model.add(Conv2D(64, (3, 3), activation='relu'))
+model.add(BatchNormalization())
+model.add(MaxPooling2D((2, 2)))
+model.add(Conv2D(128, (3, 3), activation='relu'))
+model.add(BatchNormalization())
+model.add(MaxPooling2D((2, 2)))
+model.add(Conv2D(256, (3, 3), activation='relu'))
+model.add(BatchNormalization())
+model.add(MaxPooling2D((2, 2)))
+model.add(Flatten())
+model.add(Dense(512, activation='relu'))
+model.add(Dropout(0.5))
+model.add(Dense(1, activation='sigmoid'))
+
 ## Achieved Results on Validation Dataset
 
 ### Evaluation Metrics
